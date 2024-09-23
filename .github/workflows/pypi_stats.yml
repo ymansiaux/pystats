@@ -10,6 +10,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write # Permet d'écrire dans le dépôt
+
 jobs:
   download-stats:
     runs-on: ubuntu-latest
