@@ -30,7 +30,7 @@ jobs:
 
       - name: Run download stats script
         run: |
-          python download_stats.py
+          python py/download_stats.py
 
       - name: Commit and push updated SQLite database
         run: |
